@@ -6,7 +6,7 @@ import os
 parent = os.path.dirname(os.getcwd())
 os.chdir(parent)
 
-from ..patch_extraction.extraction_utils import get_ref_df
+from patch_extraction.extraction_utils import get_ref_df
 
 
 def get_patches(image_mat, stride):
