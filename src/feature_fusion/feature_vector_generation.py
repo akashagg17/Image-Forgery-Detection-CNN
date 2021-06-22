@@ -1,6 +1,6 @@
 import os
 
-from src.feature_fusion.feature_fusion import get_yi, get_y_hat
+from feature_fusion.feature_fusion import get_yi, get_y_hat
 
 import numpy as np
 import pandas as pd
